@@ -1,0 +1,26 @@
+{
+  "name": "panda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/server.ts"
+  },
+  "dependencies": {
+    "@types/mongoose-unique-validator": "^1.0.1",
+    "http-status-codes": "^1.3.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.0.8",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.4.16",
+    "mongoose-unique-validator": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-router": "^7.0.40",
+    "@types/mongoose": "^5.3.20",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  }
+}
